@@ -3,6 +3,9 @@ jQuery Plugin to simplify the process of requesting Facebook permissions, such t
 
 **This worked with v2.5 and v2.6, I haven't back-tested it, and let me know if it breaks in the future.**
 
+[![Latest release](https://img.shields.io/github/release/pstrinkle/jquery-facebook-authorize.svg)](https://github.com/pstrinkle/jquery-facebook-authorize/releases/latest)
+[![npm](https://img.shields.io/npm/v/jquery-facebook-authorize.svg)](https://www.npmjs.com/package/jquery-facebook-authorize)
+
 Install
 -------
 
