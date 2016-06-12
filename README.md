@@ -6,6 +6,8 @@ jQuery Plugin to simplify the process of requesting Facebook permissions, such t
 Install
 -------
 
+Simply include the asset and the Facebook API, see under Usage below.
+
 Usage
 -----
 
@@ -84,7 +86,7 @@ Events
 | ---- | ---- |
 | `facebook-request-clicked` | `function(event)`: <br>- `event` - jQuery event |
 | `facebook-missing-required` | `function(event, missing)`: <br>- `event` - jQuery event <br>- `missing` - comma separated string of missing required permissions |
-| `facebook-success` | `function(event, granted, missing, details)`: <br>- `event` - jQuery event |
+| `facebook-success` | `function(event, granted, missing, details)`: <br>- `event` - jQuery event <br>- `granted` - comma separated string of all permissions granted <br>- `missing` - comma separated list of any missing optional permissions <br>- `details` - Facebook API response.authResponse object |
 | `facebook-not-authorized` | `function(event)`: <br>- `event` - jQuery event |
 | `facebook-not-loggedin` | `function(event)`: <br>- `event` - jQuery event |
 
