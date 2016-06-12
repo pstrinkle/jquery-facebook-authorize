@@ -1,0 +1,25 @@
+{
+  "name": "jquery-facebook-authorize",
+  "version": "1.0.0",
+  "description": "jQuery Plugin to simplify the process of requesting Facebook permissions, such that you only proceed forward in sign-up  once the user has granted all you require.",
+  "main": "dist/jquery.facebook-authorize.js",
+  "scripts": {},
+  "dependencies": {
+    "jquery": ">=1.11.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pstrinkle/jquery-facebook-authorize.git"
+  },
+  "keywords": [
+    "jquery-plugin",
+    "ecosystem:jquery",
+    "facebook"
+  ],
+  "author": "Patrick Trinkle",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/pstrinkle/jquery-facebook-authorize/issues"
+  },
+  "homepage": "https://pstrinkle.github.com/jquery-facebook-authorize"
+}
