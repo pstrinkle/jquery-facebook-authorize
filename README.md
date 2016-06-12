@@ -14,6 +14,10 @@ Usage
 This is simpler, but does require that you initial the Facebook API in your page already, something like the following:
 
 ```html
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="jquery-facebook-authorize/jquery.facebook-authorize.min.js"></script>
+
+<script>
 window.fbAsyncInit = function() {
     FB.init({
         appId   : XXXXXXXXXXXXXXXXXXXXXXX,
@@ -30,9 +34,8 @@ window.fbAsyncInit = function() {
     js.src = "//connect.facebook.net/en_US/sdk.js";
     fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));
+</script>
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script src="jquery-facebook-authorize/jquery.facebook-authorize.min.js"></script>
 
 <div id='error_msgs'></div>
 
