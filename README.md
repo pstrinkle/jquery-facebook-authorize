@@ -57,9 +57,8 @@ window.fbAsyncInit = function() {
             $('#error_msgs').text('missing: ' + JSON.stringify(missing));
         });
         $fbreq.on('facebook-success', function(event, granted, missing, details) {
-            console.log('granted: ' + granted);
-            console.log('missing: ' + missing);
-            console.log('details: ' + JSON.stringify(details));
+            /* move the user onto whatever step applies. */
+            createOrLogin(granted, details);
         });
         $fbreq.on('facebook-not-authorized', function(event) {
             $('#error_msgs').text('not authorized');
